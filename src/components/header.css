@@ -1,0 +1,25 @@
+.nav {
+  background-color: black;
+}
+.header {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_logo {
+  margin: 18px 20px 5px 20px;
+  width: 100px;
+  margin-right: 2%;
+}
+.header_span {
+  color: white;
+  text-decoration: none;
+}
+
+.header_tab {
+  color: white;
+  text-decoration: none;
+  margin-right: 2%;
+}
