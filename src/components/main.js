@@ -19,7 +19,7 @@ class Main extends Component {
         <Route path="/web" component={() => <Web />} />
         <Route path="/data" component={() => <Data />} />
         <Route path="/dl" component={()=><Dl/>} />
-            {/* <Redirect to="/home" /> */}
+            <Redirect to="/home" />
         {/* <Footer /> */}
       </div>
     );

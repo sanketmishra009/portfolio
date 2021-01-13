@@ -1,0 +1,43 @@
+.container {
+  background-color: grey;
+}
+
+.card_home {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid; */
+  border-color: transparent;
+  /* margin-bottom: 0.02%; */
+  position: relative;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.card_home > img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.card_rest {
+}

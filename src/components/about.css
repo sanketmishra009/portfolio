@@ -1,0 +1,15 @@
+.container {
+  padding-top: 3%;
+  height: 1000px;
+  background-color: white;
+}
+.heading {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.heading > span {
+  font-size: 40px;
+  /* font-style: bold; */
+  font-weight: 50;
+}
